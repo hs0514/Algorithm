@@ -1,6 +1,6 @@
 function solution([...s], n) {
     let answer = '';
-    for(let i = 0; i < [...s].length; i++) {
+    for(let i = 0; i < s.length; i++) {
       s[i] = s[i].charCodeAt()
       if(96 <= s[i] && 122 >= s[i]) { // 소문자
         s[i] = s[i] + n
